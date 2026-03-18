@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Comment
         id: are-they-awake-yet
         uses: shundor/are-they-asleep@v1.0.1       
